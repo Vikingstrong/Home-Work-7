@@ -1,1 +1,79 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+header .osncont {
+  position: absolute;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+header .osncont nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+header .osncont nav p {
+  color: #707273;
+  font-size: 16px;
+  color: #969999;
+}
+header .osncont button {
+  padding: 10px 25px;
+  background-color: #35AFBF;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section1 {
+  padding: 125px 25px;
+  background-image: url(img/section1/Background.png);
+  background-size: cover;
+}
+.section1 .sect1cont {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .sect1cont aside {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+.section1 .sect1cont aside h1 {
+  font-size: 50px;
+}
+.section1 .sect1cont aside p {
+  color: #707273;
+  font-size: 16px;
+  font-size: 21px;
+}
+.section1 .sect1cont aside button {
+  padding: 15px 35px;
+  background-color: #35AFBF;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.section1 .sect1cont aside span {
+  color: #32A3B2;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+@mixin cont(){
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin btn($pad){
+    padding: $pad;
+    background-color: #35AFBF;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+@mixin ops{
+    color: #707273;
+    font-size: 16px
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+        .osncont{
+        position: absolute;
+        width: 100%;
+        @include cont();
+        padding: 25px;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            gap: 25px;
+            p{
+                @include ops;
+                color: #969999;
+            }
+        }
+        button{
+            @include btn(10px 25px);
+        }
+    }
+}
+.section1{
+    padding: 125px 25px;
+    background-image: url(img/section1/Background.png);
+    background-size: cover;
+    .sect1cont{
+        @include cont();
+        aside{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 25px;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                @include ops;
+                font-size: 21px;
+            }
+            button{
+                @include btn(15px 35px)
+            }
+            span{
+                color: #32A3B2;
+            }
+        }
+    }
+}
