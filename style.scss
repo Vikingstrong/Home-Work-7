@@ -225,3 +225,17 @@ header{
         }
     }
 }
+.section7{
+    @include cont();
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 25px;
+    h2{
+        font-size: 38px;
+        width: 70%;
+        text-align: center;
+    }
+    button{
+        @include btn(15px 25px);
+    }
+}
