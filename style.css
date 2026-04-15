@@ -215,4 +215,44 @@ header .osncont button {
 }
 .section5 .infocont div p {
   width: 100%;
+}
+
+.section6 {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  padding: 100px 20px;
+  background-color: rgba(209, 244, 249, 0.5647058824);
+  background-image: url(img/section6/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section6 h2 {
+  font-size: 32px;
+  text-align: center;
+  width: 950px;
+  font-weight: 600;
+  color: #4B4C4C;
+}
+.section6 div {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.section6 div div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+.section6 div div h4 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #4B4C4C;
+}
+.section6 div div p {
+  color: #707273;
+  font-size: 16px;
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
