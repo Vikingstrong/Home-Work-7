@@ -118,4 +118,39 @@ header .osncont button {
   background-image: url(img/section2/Patten.png);
   border-radius: 10px;
   background-size: cover;
+}
+
+.section3 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 25px;
+  gap: 390px;
+}
+.section3 aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+.section3 aside h2 {
+  font-size: 38px;
+}
+.section3 aside p {
+  color: #707273;
+  font-size: 16px;
+}
+.section3 aside button {
+  padding: 15px 35px;
+  background-color: #35AFBF;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgba(53, 175, 191, 0);
+  border: 1px solid rgba(53, 175, 191, 0.7294117647);
+  color: #35AFBF;
 }/*# sourceMappingURL=style.css.map */

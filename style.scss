@@ -109,3 +109,26 @@ header{
         }
     }
 }
+.section3{
+    @include cont();
+    padding: 50px 25px;
+    gap: 390px;
+    aside{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+        h2{
+            font-size: 38px;
+        }
+        p{
+            @include ops();
+        }
+        button{
+            @include btn(15px 35px);
+            background-color: #35afbf00;
+            border: 1px solid #35afbfba;
+            color: #35AFBF;
+        }   
+    }
+}
