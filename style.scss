@@ -153,3 +153,37 @@ header{
         margin-top: 25px;
     }
 }
+.section5{
+    @include cont();
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 20px;
+    h2{
+        font-size: 38px;
+    }
+    p{
+        @include ops();
+        width: 60%;
+        text-align: center
+    }
+    .infocont{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            padding: 25px;
+            border-bottom: 1px solid #29b3c5d4;
+            width: 25%;
+            h4{
+                font-size: 21px;
+            }
+            p{
+                width: 100%;
+            }
+        }
+    }
+}
