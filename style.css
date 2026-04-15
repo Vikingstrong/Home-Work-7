@@ -76,4 +76,46 @@ header .osncont button {
 }
 .section1 .sect1cont aside span {
   color: #32A3B2;
+}
+
+.section2 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  padding: 100px 25px;
+}
+.section2 h2 {
+  font-size: 38px;
+}
+.section2 p {
+  color: #707273;
+  font-size: 16px;
+  text-align: center;
+  width: 50%;
+}
+.section2 div {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 25px;
+}
+.section2 div div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 40px 20px;
+}
+.section2 div div p {
+  width: 80%;
+}
+.section2 div div:first-child {
+  background-color: rgba(163, 224, 232, 0.6588235294);
+  background-image: url(img/section2/Patten.png);
+  border-radius: 10px;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
