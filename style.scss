@@ -132,3 +132,24 @@ header{
         }   
     }
 }
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    background-image: url(img/section4/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 20px;
+    h2{
+        font-size: 38px;
+    }
+    p{
+        width: 47%;
+        text-align: center;
+    }
+    img{
+        margin-top: 25px;
+    }
+}
