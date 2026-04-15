@@ -239,3 +239,76 @@ header{
         @include btn(15px 25px);
     }
 }
+footer{
+    background-color: #2C353E;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+    padding-bottom: 50px;
+    gap: 50px;
+    .fcont1{
+        @include cont();
+        gap: 170px;
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color: white;
+            align-items: start;
+            h2{
+                font-size: 21px;
+            }
+            h3{
+                font-size: 38px;
+                font-weight: 400;
+                display: flex;
+                gap: 5px;
+                span{
+                    font-size: 16px;
+                }
+                .month{
+                    align-self: flex-end
+                }
+            }
+            p{
+                @include ops();
+                color: #b9b9b9;
+            }
+            button{
+                @include btn(15px 35px);
+                background-color: #ffffff00;
+                border: 2px solid #FFFFFF4D;
+            }
+        }
+    }
+    .fcont2{
+        @include cont();
+        width: 100%;
+        align-items: center;
+        padding: 50px 20px;
+        padding-bottom: 0;
+        border-top: 1px solid #4B4B4B;
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            color: white;
+            div:first-child{
+                display: flex;
+                flex-direction: row;
+            }
+            div:last-child{
+                p{
+                    font-size: 12px;
+                    color: #b9b9b9;
+                }   
+            }
+        }
+        .iconbox{
+            flex-direction: row;
+            i{
+                font-size: 16px;
+            }
+        }
+    }
+}

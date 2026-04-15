@@ -280,4 +280,91 @@ header .osncont button {
   color: white;
   font-size: 16px;
   font-weight: 500;
+}
+
+footer {
+  background-color: #2C353E;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 20px;
+  padding-bottom: 50px;
+  gap: 50px;
+}
+footer .fcont1 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 170px;
+}
+footer .fcont1 div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  align-items: start;
+}
+footer .fcont1 div h2 {
+  font-size: 21px;
+}
+footer .fcont1 div h3 {
+  font-size: 38px;
+  font-weight: 400;
+  display: flex;
+  gap: 5px;
+}
+footer .fcont1 div h3 span {
+  font-size: 16px;
+}
+footer .fcont1 div h3 .month {
+  align-self: flex-end;
+}
+footer .fcont1 div p {
+  color: #707273;
+  font-size: 16px;
+  color: #b9b9b9;
+}
+footer .fcont1 div button {
+  padding: 15px 35px;
+  background-color: #35AFBF;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0.3019607843);
+}
+footer .fcont2 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  padding: 50px 20px;
+  padding-bottom: 0;
+  border-top: 1px solid #4B4B4B;
+}
+footer .fcont2 div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+}
+footer .fcont2 div div:first-child {
+  display: flex;
+  flex-direction: row;
+}
+footer .fcont2 div div:last-child p {
+  font-size: 12px;
+  color: #b9b9b9;
+}
+footer .fcont2 .iconbox {
+  flex-direction: row;
+}
+footer .fcont2 .iconbox i {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
